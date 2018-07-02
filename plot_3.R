@@ -1,7 +1,7 @@
 library("data.table")
 library("ggplot2")
 
-setwd("~/Desktop/datasciencecoursera/4_Exploratory_Data_Analysis/project2")
+setwd("C:/Users/Administrator/Desktop/CourseraRWorkingDirectory/data")
 path <- getwd()
 download.file(url = "https://d396qusza40orc.cloudfront.net/exdata%2Fdata%2FNEI_data.zip"
               , destfile = paste(path, "dataFiles.zip", sep = "/"))
